@@ -1,0 +1,27 @@
+.menu-crud
+{
+    background: rgb(113,177,0);
+    background: linear-gradient(90deg, rgba(113,177,0,1) 40%, rgba(0,173,29,1) 60%);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 50rem;
+    justify-content: space-between;
+}
+
+.enlace-crud
+{
+    color: $blanco;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    height: 5rem;
+    width: 20rem;
+    margin-left: 7rem;
+    font-size: 2rem;
+}

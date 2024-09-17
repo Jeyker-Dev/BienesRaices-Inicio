@@ -1,0 +1,42 @@
+.boton-amarillo
+{
+    @include boton($amarillo, inline-block);
+    border: none;
+}
+
+.boton-amarillo-block
+{
+    @include boton($amarillo, block);
+    border: none;
+}
+
+.boton-verde
+{
+    @include boton($verde, inline-block);
+    border: none;
+}
+
+.ver-todas
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton-rojo-block
+{
+    @include boton($rojo, block);
+    width: 100%;
+    border: none;
+}
+
+.boton-verde-block
+{
+    @include boton($verde, block);    
+}
+
+.boton-agregar{
+    
+    @include boton($verde, inline-block);
+    border: none;
+
+}
